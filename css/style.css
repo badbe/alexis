@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 24px 0;
+}
+.header-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.header-nav a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 14px;
+  display: block;
+  margin-right: 22px;
+  font-weight: bolder;
+}
+.home {
+  background-color: rgba(38, 39, 50, 0.85);
+}
+.home-container {
+  max-width: 818px;
+  padding-top: 250px;
+  padding-bottom: 176px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-container h1 {
+  font-size: 60px;
+  line-height: 85px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 41px;
+}
+#home-btn {
+  border-radius: 25px;
+  background-color: #fc5f45;
+  padding: 19px 41px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 83px;
+}
+.features {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 100%;
+  justify-content: space-between;
+}
+.span-green {
+  color: #38c695;
+}
+.span-fiol {
+  color: #b27cf5;
+}
+.span-orange {
+  color: #feb960;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-img {
+  margin-bottom: 38px;
+}
+.about {
+  padding-top: 149px;
+  padding-bottom: 151px;
+}
+.about-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.about-photo {
+  max-width: 555px;
+  z-index: 1;
+}
+.about-text {
+  position: absolute;
+  padding: 94px 83px 63px 81px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  max-width: 652px;
+  z-index: 999;
+  top: 7%;
+  right: 0;
+  background: #fff;
+}
+.about-h2 {
+  margin-bottom: 48px;
+  font-size: 50px;
+  color: #313131;
+  font-weight: bold;
+}
+.about-p {
+  color: #616161;
+  font-size: 15px;
+  line-height: 27px;
+  margin-bottom: 43px;
+}
